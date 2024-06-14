@@ -3,13 +3,14 @@
 body {
     text-align: center;
     font-size: 1.2rem;
-    margin: 0;
-    padding: 0;
     border: 0;
 }
 
 * {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 hr {
@@ -23,8 +24,6 @@ header {
     padding: 0;
     margin: 0;
 }
-
-main {}
 
 #logo {
     margin-top: 1em;
@@ -55,19 +54,13 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #25a2c3;
-    size: ;
     line-height: 1.5;
-}
-
-p {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #393d41;
 }
 
 .buttonblock {
     background-image: url(/assets/img/banner.jpg);
     background-size: cover;
-
+padding: 2em 0;
 }
 
 .buttonblock h1 {
@@ -92,8 +85,18 @@ p {
     padding-right: 2em;
 }
 
-.paragraph h2 {
-    font-style;
+.paragraph {
+width: 80%;
+display: block;
+margin: 0 auto;
+}
+
+.paragraph>* {
+margin: 2em 0;
+}
+
+.paragraphtext p {
+    margin-top: 0px;
 }
 
 .notebookimg {
@@ -101,34 +104,50 @@ p {
     border-radius: 100%;
 }
 
-;
-
 .quote {
+    color: white;
     background-position: center;
-
-    background: rgb(212, 0, 0);
+    background:#e22d0e;
     background-size: auto;
-    padding: 0;
+    padding: 2em 0;
     margin: 0;
 }
 
-.yourpcimg {
-    width: 22rem;
-    ;
+.quote>* {
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 80%;
+
 }
 
-.learnimg {
-    width: 22rem;
-    ;
-}
+.quote h1, .quote h2, .quote h3 { color: white;}
 
 .workimg {
-    width: 22rem;
+    width: 100%;
 }
 
-.luretext {border: 1px solid black ;
-border-style: solid;}
+.luretext {
+    border: 1px solid #dee1e3;
+    width: 21rem;
+    border-radius: 5px;
+    padding: 0;
+    margin: 2rem;
+}
 
+.luretext h2 {
+    margin-bottom: 1em;
+}
+
+.luretext p {
+    width: 19em;
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    padding-bottom: 1em;
+}
+
+.footer * {
+    font-eight: 100;
+}
 
 footer {
     width: 25rem;
@@ -136,12 +155,13 @@ footer {
     background-size: cover;
     padding: 0;
     margin: 0;
+    padding-bottom: 2em;
 }
 
 footer h1 {
     color: white;
-    margin-top: 5rem;
-    padding-top: 1em;
+    padding-top: 1.5rem;
+    font-size: 30px;
 }
 
 .icon {
@@ -153,5 +173,22 @@ footer h1 {
     align-content: center;
     padding: 0;
 }
+.footerline a {
+    text-decoration: none;
+    color: white;
+}
 
-.footerlist p {color: white; font-size: 0.8em;}
+.footerlist span, .footerlist a {
+    color: white;
+    font-size: 0.8em;
+}
+
+.footerline {
+    margin: 0 auto;
+    font-size: 0.8em; color: white;
+width: fit-content;
+border-top: 1px solid white;
+padding-top: 1em ;
+margin-top: 2em;
+}
+
