@@ -18,7 +18,7 @@ hr {
 }
 
 header {
-    width: 25rem;
+    width: 100%;
     background: rgb(0, 0, 0);
     background-size: cover;
     padding: 0;
@@ -60,7 +60,7 @@ h3 {
 .buttonblock {
     background-image: url(/assets/img/banner.jpg);
     background-size: cover;
-padding: 2em 0;
+    padding: 2em 0;
 }
 
 .buttonblock h1 {
@@ -86,17 +86,17 @@ padding: 2em 0;
 }
 
 .paragraph {
-width: 80%;
-display: block;
-margin: 0 auto;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
 .paragraph>* {
-margin: 2em 0;
+    margin: 2em 0;
 }
 
 .paragraphtext p {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .notebookimg {
@@ -107,7 +107,7 @@ margin: 2em 0;
 .quote {
     color: white;
     background-position: center;
-    background:#e22d0e;
+    background: #e22d0e;
     background-size: auto;
     padding: 2em 0;
     margin: 0;
@@ -120,7 +120,13 @@ margin: 2em 0;
 
 }
 
-.quote h1, .quote h2, .quote h3 { color: white;}
+.quote h1,
+.quote h2,
+.quote h3 {
+    color: white;
+}
+
+.quote h3 {}
 
 .workimg {
     width: 100%;
@@ -128,7 +134,7 @@ margin: 2em 0;
 
 .luretext {
     border: 1px solid #dee1e3;
-    width: 21rem;
+    width: 100;
     border-radius: 5px;
     padding: 0;
     margin: 2rem;
@@ -150,7 +156,7 @@ margin: 2em 0;
 }
 
 footer {
-    width: 25rem;
+    width: 100%;
     background: #25a2c3;
     background-size: cover;
     padding: 0;
@@ -173,22 +179,24 @@ footer h1 {
     align-content: center;
     padding: 0;
 }
+
 .footerline a {
     text-decoration: none;
     color: white;
 }
 
-.footerlist span, .footerlist a {
+.footerlist span,
+.footerlist a {
     color: white;
     font-size: 0.8em;
 }
 
 .footerline {
     margin: 0 auto;
-    font-size: 0.8em; color: white;
-width: fit-content;
-border-top: 1px solid white;
-padding-top: 1em ;
-margin-top: 2em;
+    font-size: 0.8em;
+    color: white;
+    width: fit-content;
+    border-top: 1px solid white;
+    padding-top: 1em;
+    margin-top: 2em;
 }
-
